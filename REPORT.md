@@ -41,8 +41,7 @@ dcoker-compose exec web rails db:seeds
 ## indexがないばあい
 
 ```sql
-drop
-index index_crimes_on_location;
+drop index index_crimes_on_location;
 ```
 
 ### ソートなし
